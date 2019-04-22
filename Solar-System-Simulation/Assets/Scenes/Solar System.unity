@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 52337011}
   - component: {fileID: 52337010}
   - component: {fileID: 52337009}
+  - component: {fileID: 52337016}
   m_Layer: 0
   m_Name: Saturn
   m_TagString: Untagged
@@ -338,6 +339,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &52337016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52337008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db48d6406561ec14392bd2ed8fc40c0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
 --- !u!1 &787888412
 GameObject:
   m_ObjectHideFlags: 0
@@ -353,6 +367,7 @@ GameObject:
   - component: {fileID: 787888415}
   - component: {fileID: 787888414}
   - component: {fileID: 787888413}
+  - component: {fileID: 787888420}
   m_Layer: 0
   m_Name: Neptune
   m_TagString: Untagged
@@ -556,6 +571,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &787888420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787888412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db48d6406561ec14392bd2ed8fc40c0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
 --- !u!1 &791220556
 GameObject:
   m_ObjectHideFlags: 0
@@ -658,6 +686,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -724,12 +753,24 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 20, z: -200}
+  m_LocalPosition: {x: 0, y: 3, z: -100}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b951214e6aa7d449a0129f839b91340, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1187236860
 GameObject:
   m_ObjectHideFlags: 0
@@ -744,6 +785,7 @@ GameObject:
   - component: {fileID: 1187236861}
   - component: {fileID: 1187236865}
   - component: {fileID: 1187236866}
+  - component: {fileID: 1187236867}
   m_Layer: 0
   m_Name: Sun
   m_TagString: Untagged
@@ -818,7 +860,7 @@ Transform:
   m_GameObject: {fileID: 1187236860}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 50, y: 50, z: 50}
+  m_LocalScale: {x: 45, y: 45, z: 45}
   m_Children:
   - {fileID: 791220557}
   m_Father: {fileID: 0}
@@ -934,6 +976,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1187236867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187236860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db48d6406561ec14392bd2ed8fc40c0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
 --- !u!1 &1259289168
 GameObject:
   m_ObjectHideFlags: 0
@@ -949,6 +1004,7 @@ GameObject:
   - component: {fileID: 1259289171}
   - component: {fileID: 1259289170}
   - component: {fileID: 1259289169}
+  - component: {fileID: 1259289176}
   m_Layer: 0
   m_Name: Mars
   m_TagString: Untagged
@@ -1152,6 +1208,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1259289176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259289168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db48d6406561ec14392bd2ed8fc40c0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
 --- !u!1 &1304564422
 GameObject:
   m_ObjectHideFlags: 0
@@ -1167,6 +1236,7 @@ GameObject:
   - component: {fileID: 1304564425}
   - component: {fileID: 1304564424}
   - component: {fileID: 1304564423}
+  - component: {fileID: 1304564430}
   m_Layer: 0
   m_Name: Pluto
   m_TagString: Untagged
@@ -1370,6 +1440,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1304564430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304564422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db48d6406561ec14392bd2ed8fc40c0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
 --- !u!1 &1318300749
 GameObject:
   m_ObjectHideFlags: 0
@@ -1385,6 +1468,7 @@ GameObject:
   - component: {fileID: 1318300752}
   - component: {fileID: 1318300751}
   - component: {fileID: 1318300750}
+  - component: {fileID: 1318300757}
   m_Layer: 0
   m_Name: Mercury
   m_TagString: Untagged
@@ -1588,6 +1672,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1318300757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318300749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db48d6406561ec14392bd2ed8fc40c0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
 --- !u!1 &1489734768
 GameObject:
   m_ObjectHideFlags: 0
@@ -1603,6 +1700,7 @@ GameObject:
   - component: {fileID: 1489734771}
   - component: {fileID: 1489734770}
   - component: {fileID: 1489734769}
+  - component: {fileID: 1489734776}
   m_Layer: 0
   m_Name: Venus
   m_TagString: Untagged
@@ -1806,6 +1904,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1489734776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489734768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db48d6406561ec14392bd2ed8fc40c0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
 --- !u!1 &1559844393
 GameObject:
   m_ObjectHideFlags: 0
@@ -1821,6 +1932,7 @@ GameObject:
   - component: {fileID: 1559844396}
   - component: {fileID: 1559844395}
   - component: {fileID: 1559844394}
+  - component: {fileID: 1559844401}
   m_Layer: 0
   m_Name: Jupiter
   m_TagString: Untagged
@@ -2024,6 +2136,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1559844401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559844393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db48d6406561ec14392bd2ed8fc40c0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
 --- !u!1 &1599487640
 GameObject:
   m_ObjectHideFlags: 0
@@ -2039,6 +2164,7 @@ GameObject:
   - component: {fileID: 1599487643}
   - component: {fileID: 1599487642}
   - component: {fileID: 1599487641}
+  - component: {fileID: 1599487648}
   m_Layer: 0
   m_Name: Uranus
   m_TagString: Untagged
@@ -2242,6 +2368,93 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1599487648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599487640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db48d6406561ec14392bd2ed8fc40c0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+--- !u!1 &1701003651
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1701003654}
+  - component: {fileID: 1701003653}
+  m_Layer: 0
+  m_Name: Minimap Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!20 &1701003653
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1701003651}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.23362406, g: 0.32620838, b: 0.4716981, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0.2
+    height: 0.22
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 100
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1701003654
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1701003651}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 200, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1726330280
 GameObject:
   m_ObjectHideFlags: 0
@@ -2257,6 +2470,7 @@ GameObject:
   - component: {fileID: 1726330285}
   - component: {fileID: 1726330286}
   - component: {fileID: 1726330287}
+  - component: {fileID: 1726330288}
   m_Layer: 0
   m_Name: Earth
   m_TagString: Untagged
@@ -2461,6 +2675,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1726330288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726330280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db48d6406561ec14392bd2ed8fc40c0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
 --- !u!1 &1726593608
 GameObject:
   m_ObjectHideFlags: 0
@@ -2475,6 +2702,7 @@ GameObject:
   - component: {fileID: 1726593609}
   - component: {fileID: 1726593613}
   - component: {fileID: 1726593614}
+  - component: {fileID: 1726593615}
   m_Layer: 0
   m_Name: Moon
   m_TagString: Untagged
@@ -2582,3 +2810,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1726330284}
   speed: 350
+--- !u!114 &1726593615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726593608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db48d6406561ec14392bd2ed8fc40c0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
